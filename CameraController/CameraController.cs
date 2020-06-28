@@ -24,12 +24,8 @@ public class CameraController : MonoBehaviour
 
     [Header("CameraFollowTime")]
     [Tooltip("Speed that determines how much camera rotation will lag behind mouse movement.")]
-    public float yCameraSpeed, xCameraSpeed;//カメラ追従速度
-    //public float smoothFollow = 10f;
-
-    [Tooltip("Current mouse sensivity, changes in the weapon properties")]
-    public float mouseSensitvity_notAiming = 20;
-    public float mouseSensitvity_aiming = 5;
+    public float yCameraSpeed;//カメラ追従速度(Y軸)
+    public float xCameraSpeed;//カメラ追従速度(X軸)
 
     #endregion
 
